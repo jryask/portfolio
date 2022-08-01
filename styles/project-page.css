@@ -1,0 +1,156 @@
+ .projmain-container {
+   padding-top: 240px;
+ }
+ 
+ 
+ .proj-container{
+    padding-top: 0px;
+}
+
+.proj-container2 {
+   padding-top: 425px;
+}
+/*  
+.works-title {
+   display: none;
+}
+*/
+
+.works-title {
+   display: flex;
+   justify-content: center;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 124%;
+   color: white; 
+}
+ .proj-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: white;
+    padding-top: 100px;
+ }
+
+ .proj-desc {
+   font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: white;
+    margin-top: 46px;
+    max-width: 465px;
+    
+ }
+
+
+ /* case study button */
+
+ .btn-case-study {
+    background: #E5B53A;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 136%;
+    margin-top: 48px;
+ }
+
+/* image */
+
+.mobileonlyimage {
+   display: none;
+}
+
+
+ @media screen and (max-width:768px) {
+   
+    .proj-container {
+       padding-top: 0px ;
+       margin-top: -200px;
+    }
+
+    .proj-container2{
+       padding-top: 22.2vw;
+       
+    }
+
+    .works-title {
+      display: flex;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 124%;
+      color: white;
+   }
+
+   .works-title p {
+      width: 314px;
+   }
+
+   .proj-name {
+      display: flex;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 140%;
+      
+      padding-top: 27px;
+   }
+   .proj-name p {
+      width: 314px;
+   }
+
+   .proj-desc {
+      display: flex;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 120%;
+      margin-top: 4.44vw;
+      
+   }
+
+   .proj-desc p {
+      width: 314px;
+   }
+
+   .case-study-btn-container {
+      display: flex;
+      justify-content: center;
+   }
+
+   .btn-case-study {
+      width: 314px;
+      height: 48px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 136%;
+      margin-top: 4.44vw;
+      border: none;
+      
+   }
+
+    .pconlyimage {
+      display: none;
+   }
+   .mobileonlyimage {
+      display: block;
+   }
+ }

@@ -1,0 +1,19 @@
+.footer {
+    height: 100px;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 4px;
+    border-color:#E5B53A;
+    border-style: solid;
+    margin-top: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 124%;
+}
